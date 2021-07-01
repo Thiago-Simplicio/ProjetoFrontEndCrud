@@ -1,0 +1,135 @@
+.boxForm {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 185px;
+}
+@media (max-width: 1507px) {
+  .boxForm {
+    height: 60vh;
+  }
+}
+.boxForm h3 {
+  position: absolute;
+  top: 9%;
+  color: white;
+  font-size: 31px;
+  font-family: sans-serif;
+}
+.form {
+  padding: 0px 80px;
+  width: 100%;
+  position: relative;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 1513px) {
+  .form {
+    margin-top: 45px;
+    height: 45%;
+  }
+}
+@media (max-width: 1333px) {
+  .form {
+    margin-top: 45px;
+    height: 55%;
+  }
+}
+@media (max-width: 850px) {
+  .form {
+    margin-top: 45px;
+    height: 75%;
+  }
+}
+@media (max-width: 525px) {
+  .form {
+    margin-top: 135px;
+    height: 85%;
+  }
+}
+@media (max-width: 506px) {
+  .boxForm h3 {
+    font-size: 21px;
+  }
+  .boxField input {
+    width: 350px;
+  }
+  .form {
+    margin-top: 105px;
+  }
+}
+
+.boxField label {
+  display: block;
+  font-family: sans-serif;
+  color: white;
+}
+.boxField input {
+  background-color: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  padding: 7px 10px;
+  outline: 0;
+  color: white;
+}
+.boxField input:focus {
+  background-color: white;
+  color: black;
+}
+.form button {
+  position: sticky;
+  bottom: 0;
+  width: 160px;
+  padding: 10px 0px;
+  border: none;
+  background-color: indianred;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.form button:hover {
+  opacity: 0.4;
+}
+.containerClientes {
+  padding: 10px 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 549px) {
+  .containerClientes {
+    margin-top: 195px;
+  }
+}
+.headCliente {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 40px;
+}
+.headCliente h4 {
+  font-size: 27px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+.headCliente .scroll {
+  font-size: 45px;
+}

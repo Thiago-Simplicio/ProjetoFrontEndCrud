@@ -1,0 +1,81 @@
+.card {
+  box-shadow: 0px 5px 7px black;
+  width: 320px;
+  height: 220px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  position: relative;
+}
+.head {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+}
+.head h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.head span {
+  font-size: 13px;
+  color: white;
+  font-family: sans-serif;
+}
+.med {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  width: 100%;
+  color: white;
+}
+.bottom {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  height: 25%;
+}
+.bottom button.editar {
+  cursor: pointer;
+  position: relative;
+  color: white;
+  border: none;
+}
+.edit {
+  padding: 2px;
+  background-color: rgb(142, 142, 255);
+  color: white;
+  width: 50px;
+  height: 25px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.edit:hover {
+  opacity: 0.4;
+}
+.bottom button.excluir {
+  cursor: pointer;
+  position: relative;
+  color: white;
+  border: none;
+}
+.trash {
+  padding: 1px;
+  background-color: rgb(253, 113, 113);
+  color: white;
+  width: 50px;
+  height: 25px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.trash:hover {
+  opacity: 0.4;
+}
